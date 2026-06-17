@@ -14,8 +14,14 @@
    npm install
    ```
 4. Levantar la base de datos
+
    ```
    docker-compose up -d
+   ```
+
+5. Reconstruir la base de datos con el seed
+   ```
+   http://localhost:3000/api/v2/seed
    ```
 
 ## Stack usado

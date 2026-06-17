@@ -19,8 +19,9 @@ async function bootstrap() {
       // ! Excluye los campos undefined
       transformOptions: {
         exposeUnsetFields: false,
+        enableImplicitConversion: true,
       },
-      // transform: true,
+      transform: true,
     }),
   );
 
